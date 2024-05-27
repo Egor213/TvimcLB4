@@ -38,5 +38,5 @@ steps = [10, 100, 1000]
 start_nodes = [1,2,3,6,8]
 for j in start_nodes:
   for i in steps:
-      mass = solve(i, 1)
+      mass = solve(i, j)
       print(mass)
